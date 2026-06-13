@@ -1,0 +1,49 @@
+{
+    "login": {
+        "tagline": "Sign in to start your session",
+        "username": "Username",
+        "password": "Password",
+        "rememberMe": "Remember Me",
+        "signIn": "Sign In",
+        "forgotPassword": "I forgot my password",
+        "register": "Register a new membership",
+        "errors": {
+            "fillAllFields": "Please fill in all fields.",
+            "invalidCredentials": "Invalid username or password.",
+            "networkError": "A network error occurred. Please try again."
+        }
+    },
+    "recover": {
+        "tagline": "Retrieve your lost password",
+        "email": "Registered Email",
+        "requestReset": "Request Reset Link",
+        "backToLogin": "Back to Login",
+        "errors": {
+            "enterEmail": "Please enter your email address.",
+            "failed": "Failed to request recovery link.",
+            "networkError": "A network error occurred. Please try again."
+        }
+    },
+    "register": {
+        "tagline": "Register a new membership",
+        "fullName": "Full Name",
+        "email": "Email Address",
+        "password": "Password",
+        "retypePassword": "Retype password",
+        "agreeTerms": "I agree to the",
+        "terms": "terms",
+        "registerButton": "Register",
+        "alreadyMember": "I already have a membership",
+        "errors": {
+            "fillAllFields": "Please fill in all fields.",
+            "passwordMismatch": "Passwords do not match.",
+            "agreeTerms": "You must agree to the terms.",
+            "failed": "Failed to register account.",
+            "networkError": "A network error occurred. Please try again."
+        }
+    },
+    "portal": {
+        "brand": "Standard",
+        "portal": "Portal"
+    }
+}

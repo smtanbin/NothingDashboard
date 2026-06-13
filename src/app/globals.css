@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: 'Space Mono', monospace;
+  --font-dot: 'Silkscreen', monospace;
+  --color-nothing-red: #ff2a00;
+  --color-nothing-dark: #ffffff;
+  --color-nothing-card: #ffffff;
+  --color-nothing-border: #a3a3a3;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nothing OS dot grid background */
+.nothing-dot-grid {
+  background-size: 24px 24px;
+  background-image: radial-gradient(circle, #b5b5b5 1.5px, transparent 1.5px);
+}
+
+/* Scrollbar customizations */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3c3c3c;
+}

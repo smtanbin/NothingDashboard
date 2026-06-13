@@ -37,7 +37,7 @@ export default function Navbar({ user }: NavbarProps) {
 
             <div className="flex items-center space-x-4">
                 <div className="font-mono text-xs tracking-[0.2em] text-neutral-500 font-bold">
-                    STANDARD PORTAL
+                    CENTRAL
                 </div>
             </div>
 

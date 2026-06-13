@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Standard Portal - Nothing OS Edition",
+  title: "Central - Nothing OS Edition",
   description: "Monochrome Operational Portal built with Next.js and Tailwind CSS",
 };
 

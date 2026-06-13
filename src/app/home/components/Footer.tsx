@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Brand */}
                 <div className="space-y-4">
-                    <h4 className="text-sm font-bold text-neutral-900 tracking-widest uppercase">STANDARD PORTAL</h4>
+                    <h4 className="text-sm font-bold text-neutral-900 tracking-widest uppercase">CENTRAL</h4>
                     <p className="leading-relaxed text-neutral-600 max-w-xs">
                         Secure operational environment and digital gateway built with Nothing OS design principles.
                     </p>

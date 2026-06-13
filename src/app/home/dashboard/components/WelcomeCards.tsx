@@ -5,7 +5,7 @@ export default function WelcomeCards() {
         <div className="lg:col-span-2">
             <Card className="h-full">
                 <CardHeader>
-                    <CardTitle className="text-xl font-bold">Welcome to Standard Portal!</CardTitle>
+                    <CardTitle className="text-xl font-bold">Welcome to Central!</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4 text-sm font-mono text-neutral-600">
                     <p>

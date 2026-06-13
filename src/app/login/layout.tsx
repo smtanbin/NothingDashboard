@@ -4,7 +4,7 @@ export default function LoginLayout({ children }: { children: React.ReactNode })
             <div className="w-full max-w-sm">
                 {/* Logo Header */}
                 <div className="text-center mb-8 font-mono text-xl font-bold tracking-[0.2em] text-neutral-900">
-                    STANDARD<span className="text-nothing-red font-dot">.</span>
+                    CENTRAL<span className="text-nothing-red font-dot">.</span>
                 </div>
 
                 {/* Form Box */}

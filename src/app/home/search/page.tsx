@@ -27,11 +27,11 @@ export default async function Page({
 
     const results = queryStr
         ? dummyUsers.filter(
-              (u) =>
-                  u.name.toLowerCase().includes(queryStr.toLowerCase()) ||
-                  u.email.toLowerCase().includes(queryStr.toLowerCase()) ||
-                  u.role.toLowerCase().includes(queryStr.toLowerCase())
-          )
+            (u) =>
+                u.name.toLowerCase().includes(queryStr.toLowerCase()) ||
+                u.email.toLowerCase().includes(queryStr.toLowerCase()) ||
+                u.role.toLowerCase().includes(queryStr.toLowerCase())
+        )
         : dummyUsers;
 
     return (
@@ -40,7 +40,7 @@ export default async function Page({
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-neutral-200 pb-6">
                 <div>
                     <h1 className="text-3xl font-bold font-mono tracking-tight text-neutral-900 flex items-center">
-                        USER SEARCH
+                        SEARCH
                         <span className="ml-3 h-2 w-2 rounded-full bg-nothing-red animate-pulse"></span>
                     </h1>
                     <p className="text-xs text-neutral-400 font-mono mt-1">SEARCH REGISTERED PORTAL USERS</p>
@@ -98,9 +98,8 @@ export default async function Page({
                                         </div>
                                     </div>
                                     <span
-                                        className={`h-2 w-2 rounded-full ${
-                                            u.status === "Active" ? "bg-green-500" : "bg-neutral-300"
-                                        }`}
+                                        className={`h-2 w-2 rounded-full ${u.status === "Active" ? "bg-green-500" : "bg-neutral-300"
+                                            }`}
                                     />
                                 </div>
                                 <div className="mt-6 flex justify-between items-center border-t border-neutral-100 pt-4">
